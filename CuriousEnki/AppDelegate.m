@@ -7,12 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.theServer = [[ParseServerController alloc] init];
+    [self.theServer trackAppOpenWith:launchOptions];
+    [self.theServer getListOfResources];
     return YES;
 }
 							

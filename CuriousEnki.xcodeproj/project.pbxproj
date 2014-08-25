@@ -16,12 +16,35 @@
 		CB846F1119A6848B00EB72F5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB846F0F19A6848B00EB72F5 /* Main_iPhone.storyboard */; };
 		CB846F1419A6848B00EB72F5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB846F1219A6848B00EB72F5 /* Main_iPad.storyboard */; };
 		CB846F1719A6848B00EB72F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB846F1619A6848B00EB72F5 /* ViewController.m */; };
-		CB846F1919A6848B00EB72F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB846F1819A6848B00EB72F5 /* Images.xcassets */; };
 		CB846F2019A6848B00EB72F5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB846F1F19A6848B00EB72F5 /* XCTest.framework */; };
 		CB846F2119A6848B00EB72F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB846EFD19A6848B00EB72F5 /* Foundation.framework */; };
 		CB846F2219A6848B00EB72F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB846F0119A6848B00EB72F5 /* UIKit.framework */; };
 		CB846F2A19A6848B00EB72F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB846F2819A6848B00EB72F5 /* InfoPlist.strings */; };
 		CB846F2C19A6848B00EB72F5 /* CuriousEnkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB846F2B19A6848B00EB72F5 /* CuriousEnkiTests.m */; };
+		CB846F3819A6889B00EB72F5 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB846F3719A6889B00EB72F5 /* iCarousel.m */; };
+		CB846F3F19A7728400EB72F5 /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB846F3E19A7728400EB72F5 /* green.jpg */; };
+		CB846F4519A77BEF00EB72F5 /* ImageProcessingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB846F4419A77BEF00EB72F5 /* ImageProcessingHelper.m */; };
+		CB846F4619A77BEF00EB72F5 /* ImageProcessingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB846F4419A77BEF00EB72F5 /* ImageProcessingHelper.m */; };
+		CB846F4919A7853F00EB72F5 /* ParseServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB846F4819A7853F00EB72F5 /* ParseServerController.m */; };
+		CB846F4A19A7853F00EB72F5 /* ParseServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB846F4819A7853F00EB72F5 /* ParseServerController.m */; };
+		CB846F4C19A7902400EB72F5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB846F4B19A7902400EB72F5 /* Parse.framework */; };
+		CB846F4D19A7902400EB72F5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB846F4B19A7902400EB72F5 /* Parse.framework */; };
+		CB846F4F19A7906200EB72F5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB846F4E19A7906200EB72F5 /* AudioToolbox.framework */; };
+		CB846F5119A7906B00EB72F5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB846F5019A7906B00EB72F5 /* CFNetwork.framework */; };
+		CB846F5319A7907D00EB72F5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB846F5219A7907D00EB72F5 /* CoreLocation.framework */; };
+		CB846F5519A7908900EB72F5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB846F5419A7908900EB72F5 /* libz.dylib */; };
+		CB846F5719A7909400EB72F5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB846F5619A7909400EB72F5 /* MobileCoreServices.framework */; };
+		CB846F5919A790A000EB72F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB846F5819A790A000EB72F5 /* QuartzCore.framework */; };
+		CB846F5B19A7919D00EB72F5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB846F5A19A7919D00EB72F5 /* Security.framework */; };
+		CB846F5D19A791AD00EB72F5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB846F5C19A791AD00EB72F5 /* StoreKit.framework */; };
+		CB846F5F19A791B900EB72F5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB846F5E19A791B900EB72F5 /* SystemConfiguration.framework */; };
+		CB846F6219A79DBB00EB72F5 /* ApplicationInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB846F6119A79DBB00EB72F5 /* ApplicationInformation.m */; };
+		CB846F6319A79DBB00EB72F5 /* ApplicationInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB846F6119A79DBB00EB72F5 /* ApplicationInformation.m */; };
+		CB846F6619A7A4D500EB72F5 /* ArticleInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB846F6519A7A4D500EB72F5 /* ArticleInformation.m */; };
+		CB846F6719A7A4D500EB72F5 /* ArticleInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB846F6519A7A4D500EB72F5 /* ArticleInformation.m */; };
+		CB846F6919A7B38400EB72F5 /* LaunchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB846F6819A7B38400EB72F5 /* LaunchImage.jpg */; };
+		CB846F6A19A7B38400EB72F5 /* LaunchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB846F6819A7B38400EB72F5 /* LaunchImage.jpg */; };
+		CBFFD3F119AB2070000F5DA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFFD3F019AB2070000F5DA2 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,12 +72,34 @@
 		CB846F1319A6848B00EB72F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		CB846F1519A6848B00EB72F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CB846F1619A6848B00EB72F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CB846F1819A6848B00EB72F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CB846F1E19A6848B00EB72F5 /* CuriousEnkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuriousEnkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB846F1F19A6848B00EB72F5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CB846F2719A6848B00EB72F5 /* CuriousEnkiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CuriousEnkiTests-Info.plist"; sourceTree = "<group>"; };
 		CB846F2919A6848B00EB72F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB846F2B19A6848B00EB72F5 /* CuriousEnkiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CuriousEnkiTests.m; sourceTree = "<group>"; };
+		CB846F3619A6889B00EB72F5 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		CB846F3719A6889B00EB72F5 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		CB846F3E19A7728400EB72F5 /* green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green.jpg; sourceTree = "<group>"; };
+		CB846F4319A77BEF00EB72F5 /* ImageProcessingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessingHelper.h; sourceTree = "<group>"; };
+		CB846F4419A77BEF00EB72F5 /* ImageProcessingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageProcessingHelper.m; sourceTree = "<group>"; };
+		CB846F4719A7853F00EB72F5 /* ParseServerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseServerController.h; sourceTree = "<group>"; };
+		CB846F4819A7853F00EB72F5 /* ParseServerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseServerController.m; sourceTree = "<group>"; };
+		CB846F4B19A7902400EB72F5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CB846F4E19A7906200EB72F5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CB846F5019A7906B00EB72F5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CB846F5219A7907D00EB72F5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CB846F5419A7908900EB72F5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CB846F5619A7909400EB72F5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CB846F5819A790A000EB72F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CB846F5A19A7919D00EB72F5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CB846F5C19A791AD00EB72F5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CB846F5E19A791B900EB72F5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CB846F6019A79DBB00EB72F5 /* ApplicationInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationInformation.h; sourceTree = "<group>"; };
+		CB846F6119A79DBB00EB72F5 /* ApplicationInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationInformation.m; sourceTree = "<group>"; };
+		CB846F6419A7A4D500EB72F5 /* ArticleInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleInformation.h; sourceTree = "<group>"; };
+		CB846F6519A7A4D500EB72F5 /* ArticleInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleInformation.m; sourceTree = "<group>"; };
+		CB846F6819A7B38400EB72F5 /* LaunchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaunchImage.jpg; sourceTree = "<group>"; };
+		CBFFD3F019AB2070000F5DA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +107,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB846F5F19A791B900EB72F5 /* SystemConfiguration.framework in Frameworks */,
+				CB846F5D19A791AD00EB72F5 /* StoreKit.framework in Frameworks */,
+				CB846F5B19A7919D00EB72F5 /* Security.framework in Frameworks */,
+				CB846F5919A790A000EB72F5 /* QuartzCore.framework in Frameworks */,
+				CB846F5719A7909400EB72F5 /* MobileCoreServices.framework in Frameworks */,
+				CB846F5519A7908900EB72F5 /* libz.dylib in Frameworks */,
+				CB846F5319A7907D00EB72F5 /* CoreLocation.framework in Frameworks */,
 				CB846F0019A6848B00EB72F5 /* CoreGraphics.framework in Frameworks */,
+				CB846F5119A7906B00EB72F5 /* CFNetwork.framework in Frameworks */,
+				CB846F4F19A7906200EB72F5 /* AudioToolbox.framework in Frameworks */,
 				CB846F0219A6848B00EB72F5 /* UIKit.framework in Frameworks */,
+				CB846F4C19A7902400EB72F5 /* Parse.framework in Frameworks */,
 				CB846EFE19A6848B00EB72F5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +129,7 @@
 			files = (
 				CB846F2019A6848B00EB72F5 /* XCTest.framework in Frameworks */,
 				CB846F2219A6848B00EB72F5 /* UIKit.framework in Frameworks */,
+				CB846F4D19A7902400EB72F5 /* Parse.framework in Frameworks */,
 				CB846F2119A6848B00EB72F5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +159,16 @@
 		CB846EFC19A6848B00EB72F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB846F5E19A791B900EB72F5 /* SystemConfiguration.framework */,
+				CB846F5C19A791AD00EB72F5 /* StoreKit.framework */,
+				CB846F5A19A7919D00EB72F5 /* Security.framework */,
+				CB846F5819A790A000EB72F5 /* QuartzCore.framework */,
+				CB846F5619A7909400EB72F5 /* MobileCoreServices.framework */,
+				CB846F5419A7908900EB72F5 /* libz.dylib */,
+				CB846F5219A7907D00EB72F5 /* CoreLocation.framework */,
+				CB846F5019A7906B00EB72F5 /* CFNetwork.framework */,
+				CB846F4E19A7906200EB72F5 /* AudioToolbox.framework */,
+				CB846F4B19A7902400EB72F5 /* Parse.framework */,
 				CB846EFD19A6848B00EB72F5 /* Foundation.framework */,
 				CB846EFF19A6848B00EB72F5 /* CoreGraphics.framework */,
 				CB846F0119A6848B00EB72F5 /* UIKit.framework */,
@@ -114,14 +180,24 @@
 		CB846F0319A6848B00EB72F5 /* CuriousEnki */ = {
 			isa = PBXGroup;
 			children = (
+				CB846F6B19A7B87000EB72F5 /* iPad */,
+				CB846F3519A6887800EB72F5 /* Carousel */,
 				CB846F0C19A6848B00EB72F5 /* AppDelegate.h */,
 				CB846F0D19A6848B00EB72F5 /* AppDelegate.m */,
 				CB846F0F19A6848B00EB72F5 /* Main_iPhone.storyboard */,
 				CB846F1219A6848B00EB72F5 /* Main_iPad.storyboard */,
 				CB846F1519A6848B00EB72F5 /* ViewController.h */,
 				CB846F1619A6848B00EB72F5 /* ViewController.m */,
-				CB846F1819A6848B00EB72F5 /* Images.xcassets */,
+				CB846F4219A77BCF00EB72F5 /* Helpers */,
+				CB846F3D19A76D3700EB72F5 /* Images */,
 				CB846F0419A6848B00EB72F5 /* Supporting Files */,
+				CB846F4719A7853F00EB72F5 /* ParseServerController.h */,
+				CB846F4819A7853F00EB72F5 /* ParseServerController.m */,
+				CB846F6019A79DBB00EB72F5 /* ApplicationInformation.h */,
+				CB846F6119A79DBB00EB72F5 /* ApplicationInformation.m */,
+				CB846F6419A7A4D500EB72F5 /* ArticleInformation.h */,
+				CB846F6519A7A4D500EB72F5 /* ArticleInformation.m */,
+				CBFFD3F019AB2070000F5DA2 /* Images.xcassets */,
 			);
 			path = CuriousEnki;
 			sourceTree = "<group>";
@@ -153,6 +229,41 @@
 				CB846F2819A6848B00EB72F5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB846F3519A6887800EB72F5 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				CB846F3619A6889B00EB72F5 /* iCarousel.h */,
+				CB846F3719A6889B00EB72F5 /* iCarousel.m */,
+			);
+			name = Carousel;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CB846F3D19A76D3700EB72F5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CB846F6819A7B38400EB72F5 /* LaunchImage.jpg */,
+				CB846F3E19A7728400EB72F5 /* green.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		CB846F4219A77BCF00EB72F5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CB846F4319A77BEF00EB72F5 /* ImageProcessingHelper.h */,
+				CB846F4419A77BEF00EB72F5 /* ImageProcessingHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		CB846F6B19A7B87000EB72F5 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +342,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFFD3F119AB2070000F5DA2 /* Images.xcassets in Resources */,
+				CB846F3F19A7728400EB72F5 /* green.jpg in Resources */,
+				CB846F6919A7B38400EB72F5 /* LaunchImage.jpg in Resources */,
 				CB846F1419A6848B00EB72F5 /* Main_iPad.storyboard in Resources */,
-				CB846F1919A6848B00EB72F5 /* Images.xcassets in Resources */,
 				CB846F1119A6848B00EB72F5 /* Main_iPhone.storyboard in Resources */,
 				CB846F0819A6848B00EB72F5 /* InfoPlist.strings in Resources */,
 			);
@@ -242,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB846F6A19A7B38400EB72F5 /* LaunchImage.jpg in Resources */,
 				CB846F2A19A6848B00EB72F5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +367,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB846F6219A79DBB00EB72F5 /* ApplicationInformation.m in Sources */,
+				CB846F6619A7A4D500EB72F5 /* ArticleInformation.m in Sources */,
 				CB846F1719A6848B00EB72F5 /* ViewController.m in Sources */,
+				CB846F3819A6889B00EB72F5 /* iCarousel.m in Sources */,
+				CB846F4919A7853F00EB72F5 /* ParseServerController.m in Sources */,
 				CB846F0E19A6848B00EB72F5 /* AppDelegate.m in Sources */,
+				CB846F4519A77BEF00EB72F5 /* ImageProcessingHelper.m in Sources */,
 				CB846F0A19A6848B00EB72F5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +382,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB846F6719A7A4D500EB72F5 /* ArticleInformation.m in Sources */,
+				CB846F4619A77BEF00EB72F5 /* ImageProcessingHelper.m in Sources */,
+				CB846F6319A79DBB00EB72F5 /* ApplicationInformation.m in Sources */,
 				CB846F2C19A6848B00EB72F5 /* CuriousEnkiTests.m in Sources */,
+				CB846F4A19A7853F00EB72F5 /* ParseServerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,10 +513,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CuriousEnki/CuriousEnki-Prefix.pch";
 				INFOPLIST_FILE = "CuriousEnki/CuriousEnki-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +532,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CuriousEnki/CuriousEnki-Prefix.pch";
 				INFOPLIST_FILE = "CuriousEnki/CuriousEnki-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -419,6 +554,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CuriousEnki/CuriousEnki-Prefix.pch";
@@ -441,6 +577,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CuriousEnki/CuriousEnki-Prefix.pch";
@@ -470,6 +607,7 @@
 				CB846F3119A6848B00EB72F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB846F3219A6848B00EB72F5 /* Build configuration list for PBXNativeTarget "CuriousEnkiTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +616,7 @@
 				CB846F3419A6848B00EB72F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

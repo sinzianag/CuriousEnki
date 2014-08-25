@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ParseServerController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) IBOutlet UIWindow *window;
+@property (strong, nonatomic) IBOutlet UIViewController* mainViewController;
+
+@property (strong, nonatomic) ParseServerController* theServer;
 
 @end
